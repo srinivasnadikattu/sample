@@ -4,7 +4,8 @@ import java.io.*;
 class Persist{    
  public static void main(String args[]){    
   try{    
-  //Creating the object    
+  //Creating the object  
+ // new line   
   Student s1 =new Student(211,"ravi");    
   //Creating stream and writing the object    
   FileOutputStream fout=new FileOutputStream("f.txt");    
